@@ -1,0 +1,27 @@
+body {background: #1E2123;font-family: 'Montserrat', sans-serif;}
+img {max-width: 100%;height: auto;}
+.uper {text-transform: uppercase;}
+.white {color: #FFFFFF;}
+
+/*Estilos del nav*/
+header h1 {display: inline;}
+nav li {display: inline; margin:20px 15px;}
+nav a  {text-decoration: none; color: white;text-transform: uppercase; font-size: 16px}
+nav a:hover {text-decoration: underline 2px #57FFDC;}
+h1 {text-transform: uppercase;color: white; font-size: 18px; font-weight: medium}
+
+
+
+/*estilos inicio*/
+.hero {padding: 200px 100px;}
+.inicio1 {background: url(../imagenes/ondas-2.png) no-repeat fixed; background-size: cover;height:100vh}
+.inicio1 h1 {font-size: 60px;font-weight: 800;line-height: 64px;margin:0px}
+span {font-size: 30px;font-weight: 300;}
+p {padding: 0px 0px 20px 0px;font-size: 20px;font-weight: 400;line-height: 27px;}
+.inicio1 a {background: #57FFDC;text-decoration: none;text-transform:uppercase;color:#1E2123;padding: 15px 45px;border-radius:40px;margin:20px 0px;font-weight: 700;}
+.inicio1 a:hover {background: #0097EE}
+
+/*Estilos servicios*/
+.servicios2 {height: 100vh;max-width:1000px; width:90%; margin:0px auto;}
+.container {display: flex;justify-content: space-around;}
+.columna1, .columna2, .columna3 {width: 100%; padding:10px; box-sizing: border-box;}
